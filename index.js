@@ -90,7 +90,6 @@ const perguntas = [
     correta: 1 // Resposta correta: "Jørn Utzon"
   }
 ];
-
   
   Seleciona a div com id quiz
   const quiz = document.querySelector('#quiz')
