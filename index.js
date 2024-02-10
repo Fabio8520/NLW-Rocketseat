@@ -1,95 +1,96 @@
-const perguntas = [
-    {
-      pergunta: "Qual dos seguintes é um tipo de dado primitivo em JavaScript?",
-      respostas: [
-        "Array",
-        "Object",
-        "String"
-      ],
-      correta: 2 // Resposta correta: "String"
-    },
-    {
-      pergunta: "Qual é a palavra-chave utilizada para declarar uma variável em JavaScript?",
-      respostas: [
-        "variable",
-        "declare",
-        "var"
-      ],
-      correta: 2 // Resposta correta: "var"
-    },
-    {
-      pergunta: "Qual método é usado para imprimir mensagens no console em JavaScript?",
-      respostas: [
-        "print()",
-        "log()",
-        "console.log()"
-      ],
-      correta: 2 // Resposta correta: "console.log()"
-    },
-    {
-      pergunta: "Qual operador é usado para comparação estrita em JavaScript?",
-      respostas: [
-        "==",
-        "===",
-        "="
-      ],
-      correta: 1 // Resposta correta: "==="
-    },
-    {
-      pergunta: "Qual é o resultado da expressão '2' + 2 em JavaScript?",
-      respostas: [
-        "22",
-        "4",
-        "Erro"
-      ],
-      correta: 0 // Resposta correta: "22"
-    },
-    {
-      pergunta: "Qual dos seguintes é um exemplo de um loop de repetição em JavaScript?",
-      respostas: [
-        "if",
-        "while",
-        "switch"
-      ],
-      correta: 1 // Resposta correta: "while"
-    },
-    {
-      pergunta: "Qual é a função do método push() em JavaScript?",
-      respostas: [
-        "Remover um elemento de um array",
-        "Adicionar um elemento ao final de um array",
-        "Ordenar um array"
-      ],
-      correta: 1 // Resposta correta: "Adicionar um elemento ao final de um array"
-    },
-    {
-      pergunta: "Qual método é usado para converter uma string em minúsculas em JavaScript?",
-      respostas: [
-        "toUpperCase()",
-        "toLowerCase()",
-        "toLower()"
-      ],
-      correta: 1 // Resposta correta: "toLowerCase()"
-    },
-    {
-      pergunta: "O que o operador typeof retorna em JavaScript?",
-      respostas: [
-        "O tipo de uma variável",
-        "O valor de uma variável",
-        "Um booleano"
-      ],
-      correta: 0 // Resposta correta: "O tipo de uma variável"
-    },
-    {
-      pergunta: "Qual é a sintaxe correta para comentários de uma linha em JavaScript?",
-      respostas: [
-        "// Comentário",
-        "/* Comentário */",
-        "<!-- Comentário -->"
-      ],
-      correta: 0 // Resposta correta: "// Comentário"
-    }
-  ];
+const perguntasArquitetura = [
+  {
+    pergunta: "Quem projetou a Casa da Cascata, uma obra emblemática da arquitetura moderna?",
+    respostas: [
+      "Frank Lloyd Wright",
+      "Le Corbusier",
+      "Mies van der Rohe"
+    ],
+    correta: 0 // Resposta correta: "Frank Lloyd Wright"
+  },
+  {
+    pergunta: "Qual destes é um exemplo de estilo arquitetônico romano?",
+    respostas: [
+      "Partenon",
+      "Panteão",
+      "Sagrada Família"
+    ],
+    correta: 1 // Resposta correta: "Panteão"
+  },
+  {
+    pergunta: "Quem é o arquiteto responsável pela concepção do edifício Burj Khalifa em Dubai?",
+    respostas: [
+      "Norman Foster",
+      "Frank Gehry",
+      "Adrian Smith"
+    ],
+    correta: 2 // Resposta correta: "Adrian Smith"
+  },
+  {
+    pergunta: "O Palácio de Versalhes está localizado em qual país?",
+    respostas: [
+      "Espanha",
+      "Itália",
+      "França"
+    ],
+    correta: 2 // Resposta correta: "França"
+  },
+  {
+    pergunta: "Qual destes é um exemplo de estilo arquitetônico gótico?",
+    respostas: [
+      "Casa Batlló",
+      "Catedral de Notre-Dame",
+      "Museu Guggenheim Bilbao"
+    ],
+    correta: 1 // Resposta correta: "Catedral de Notre-Dame"
+  },
+  {
+    pergunta: "Quem projetou o Museu Solomon R. Guggenheim em Nova York?",
+    respostas: [
+      "Zaha Hadid",
+      "Frank Lloyd Wright",
+      "I. M. Pei"
+    ],
+    correta: 1 // Resposta correta: "Frank Lloyd Wright"
+  },
+  {
+    pergunta: "Qual destes é um exemplo de estilo arquitetônico renascentista?",
+    respostas: [
+      "Castelo de Neuschwanstein",
+      "Palácio de Buckingham",
+      "Palazzo Vecchio"
+    ],
+    correta: 2 // Resposta correta: "Palazzo Vecchio"
+  },
+  {
+    pergunta: "Quem foi o arquiteto do Empire State Building em Nova York?",
+    respostas: [
+      "Louis Sullivan",
+      "William Van Alen",
+      "Daniel Burnham"
+    ],
+    correta: 1 // Resposta correta: "William Van Alen"
+  },
+  {
+    pergunta: "O Coliseu é uma estrutura icônica situada em qual cidade?",
+    respostas: [
+      "Atenas",
+      "Roma",
+      "Paris"
+    ],
+    correta: 1 // Resposta correta: "Roma"
+  },
+  {
+    pergunta: "Quem projetou a Ópera de Sydney?",
+    respostas: [
+      "Renzo Piano",
+      "Jørn Utzon",
+      "Santiago Calatrava"
+    ],
+    correta: 1 // Resposta correta: "Jørn Utzon"
+  }
+];
+
   
   //Seleciona a div com id quiz
   const quiz = document.querySelector('#quiz')
