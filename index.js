@@ -1,4 +1,4 @@
-const perguntasArquitetura = [
+const perguntas = [
   {
     pergunta: "Quem projetou a Casa da Cascata, uma obra emblemática da arquitetura moderna?",
     respostas: [
@@ -92,7 +92,7 @@ const perguntasArquitetura = [
 ];
 
   
-  //Seleciona a div com id quiz
+  Seleciona a div com id quiz
   const quiz = document.querySelector('#quiz')
   //Seleciona a tag template
   const template = document.querySelector('template');
